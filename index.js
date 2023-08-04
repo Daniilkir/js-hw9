@@ -11,9 +11,11 @@ console.log(numbers);
 let strings = ['Рядок 1', 'Рядок 2', 'Рядок 3'];
 let newstring = 'Рядок 4';
 
-for (let i = strings.length; i < strings.length + 1; i += 1) {
-  strings.push(newstring);
+
+for (let i = 0; i < 1; i++) {
+  strings[strings.length] = newstring;
 }
+
 console.log(strings);
 
 // 3
